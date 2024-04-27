@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="calc_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_margin">2.5dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textColor">@color/calc_history_bg</item>
+
+    </style>
+    <style name="calc_func_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_func_btn</item>
+    </style>
+
+    <style name="calc_digit_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_digit_btn</item>
+    </style>
+
+    <style name="calc_equal_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_equal_btn</item>
+        <item name="android:textColor">@color/calc_digit_bg</item>
+    </style>
+</resources>
+
+<!--
+
+android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@null"
+                android:textColor="@color/calc_history_bg"
+                android:background="@drawable/calc_func_btn"
+                android:textSize="22sp"
+                android:text="@string/calc_btn_percent"
+-->
